@@ -17,8 +17,9 @@ int main() {
     printf("Seed: %ld\n", seed);
     printf("Seed == x: %d\n", (seed == x));
 
+    int r;
     while(1){
-        int r = rand();
+        r = rand();
         printf("%d", r);
         if (i < 10){
             printf(" | ");
