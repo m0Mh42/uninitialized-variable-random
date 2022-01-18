@@ -7,7 +7,7 @@ int main() {
     ulong x;
     // ulong y;
     // ulong z;
-    printf("i 0x%x | %u | 0x%x\n", &i, i, i);
+    printf("i 0x%lx | %u | 0x%x\n", &i, i, i);
     printf("x 0x%lx | %lu | 0x%lx\n", &x, x, x);
     // printf("y 0x%lx | %lu | 0x%lx\n", &y, y, y);
     // printf("z 0x%lx | %lu | 0x%lx\n", &z, z, z);
